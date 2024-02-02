@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.main{
+.main {
     width: 100%;
-    background: url(pic/trial.jpg);
+    background: url(pic/trial2.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -13,7 +13,7 @@
     font-family: sans-serif;
 }
 
-.navbar{
+.navbar {
     width: 86%;
     display: flex;
     margin: auto;
@@ -22,59 +22,54 @@
     justify-content: space-between;
 }
 
-.navbar .logo{
+.navbar .logo {
     width: 160px;
     cursor: pointer;
-    margin-top: -3%;
-    margin-left: -2%;
 }
 
-ul{
-    margin-top: -4%;
-}
-
-ul li{
+ul {
     list-style: none;
+}
+
+ul li {
     display: inline-block;
     padding: 10px 16px;
 }
 
-ul li a{
+ul li a {
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     color: #f2f2f2;
-    margin-top: -3%;
     transition: .4s ease;
-
 }
 
-ul li a:hover{
+ul li a:hover {
     color: crimson;
 }
 
-.info{
+.info {
     margin-left: 7%;
     margin-top: 6%;
 }
 
-.info h1{
+.info h1 {
     font-size: 65px;
     color: crimson;
 }
 
-.info h3{
+.info h3 {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 24px;
 }
 
-.info span{
+.info span {
     color: #f2f2f2;
 }
 
-.info a{
-    text-decoration:  none;
+.info a {
+    text-decoration: none;
     color: #fff;
     background: crimson;
     margin: 26px 0;
@@ -84,11 +79,11 @@ ul li a:hover{
     transition: .4s ease;
 }
 
-.info a:hover{
+.info a:hover {
     background: crimson;
 }
 
-.image{
+.image {
     width: 30%;
     height: 60%;
     position: absolute;
@@ -96,7 +91,7 @@ ul li a:hover{
     bottom: 0;
 }
 
-.image img{
+.image img {
     position: absolute;
     height: 140%;
     left: 40%;
@@ -105,47 +100,43 @@ ul li a:hover{
     transition: left 2s ease;
 }
 
-.image:hover .me{
+.image:hover .me {
     left: 55%;
 }
 
-.icons a{
+.icons a {
     text-decoration: none;
     color: #f2f2f2;
 }
 
-.icons ion-icon{
+.icons ion-icon {
     margin-left: 7%;
     color: crimson;
     margin-right: -60px;
     font-size: 40px;
     transition: .4s ease;
-    
 }
 
-.icons ion-icon:hover{
+.icons ion-icon:hover {
     color: #f2f2f2;
 }
 
-.h3
-{
+.h3 {
     color: #f2f2f2;
     font-family: 'Poppins', sans-serif;
 }
 
-.image1
-{
+.image1,
+.image2 {
     width: 30%;
     height: 60%;
     position: absolute;
     right: 100px;
     bottom: 0;
 }
-.image:hover .me{
-    left: 55%;
-}
 
-.image1 img{
+.image1 img,
+.image2 img {
     position: absolute;
     height: 80%;
     left: 30%;
@@ -154,25 +145,7 @@ ul li a:hover{
     transition: left 2s ease;
 }
 
-.image2
-{
-    width: 30%;
-    height: 60%;
-    position: absolute;
-    right: 100px;
-    bottom: 0;
-}
-
-.image2 img{
-    position: absolute;
-    height: 80%;
-    left: 30%;
-    transform: translate(-55%);
-    bottom: 70;
-    transition: left 2s ease;
-}
-
-.image2:hover .me
-{
+.image1:hover .me,
+.image2:hover .me {
     left: 55%;
 }
